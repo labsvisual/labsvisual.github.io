@@ -21,8 +21,11 @@ body { background: #f5f6fa; }
 }
 
 .section#third {
-    /* background: #000; */
     border: 14px solid #2c3e50;
+}
+
+section#fourth {
+    border: 14px solid #7f8c8d;
 }
 
 #header--banner__intro {
@@ -163,6 +166,9 @@ span.black:hover { color: #000; }
 .card h3.mongo { color: #589636; }
 .card h3.aws { color: #ff9900; }
 .card h3.maria { color: #00758f; }
+.card h3.linkedin { color: #0077b5; }
+.card h3.github { color: #333; }
+.card h3.stackoverflow { color: #f48024; }
 
 .card span.experience {
     font-size: 1.25rem;
@@ -194,3 +200,166 @@ span.black:hover { color: #000; }
     font-size: 3em;
     color: #7f8c8d;
 }
+
+#contact--pre {
+    color: #95a5a6;
+    position: absolute;
+    height: 100px;
+    top: 30%;
+    left: 20%;
+    margin-left: -25px;
+    margin-top: -50px;
+
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+#contact--pre:before {
+    content: '//';
+    letter-spacing: 6px;
+    color: #2ecc71;
+}
+
+#contact {
+    color: #bdc3c7;
+    position: absolute;
+    height: 100px;
+    top: 45%;
+    left: 20%;
+    right: 20%;
+    margin-left: -25px;
+    margin-top: -50px;
+
+    font-family: 'Domine', serif;
+    font-size: 4em;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+#contact h3 {
+    font-size: 3rem;
+    display: 'block';
+}
+
+#contact a {
+    position: absolute;
+    height: 50px;
+    margin-top: 1em;
+    cursor: pointer;
+    color: #7f8c8d;
+}
+
+#contact a:hover { color: #27ae60; }
+
+#social--pre {
+    color: #95a5a6;
+    position: absolute;
+    height: 100px;
+    top: 20%;
+    left: 20%;
+    margin-left: -25px;
+    margin-top: -50px;
+
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+#social--pre:before {
+    content: '//';
+    letter-spacing: 6px;
+    color: #8e44ad;
+}
+
+#social {
+    color: #bdc3c7;
+    position: absolute;
+    height: 100px;
+    top: 30%;
+    left: 20%;
+    right: 20%;
+    margin-left: -25px;
+    margin-top: -50px;
+
+    font-family: 'Domine', serif;
+    font-size: 4em;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+#social a.linkedin-logo:hover {
+    color: #0077b5;
+}
+
+#social a.github-logo:hover {
+    color: #333;
+}
+#social a.twitter-logo:hover {
+    color: #1da1f2;
+}
+
+#social a.stackoverflow-logo:hover {
+    color: #f48024;
+}
+
+#social a,
+#social--post a { cursor: pointer; text-decoration: none; }
+
+#social a.profile {
+    font-size: 1.5rem;
+}
+
+#social a:visited,
+#social--post a:visited { color: inherit; }
+
+#social--post {
+    position: absolute;
+    top: 60%;
+    left: 20%;
+    right: 20%;
+    margin-left: -25px;
+    margin-top: -50px;
+    font-family: 'Domine', serif;
+    font-size: 3em;
+    color: #7f8c8d;
+}
+
+a#hashnode:hover { color: #2475f3; }
+a#scotch:hover { color: #c9a343; }
+a#hackernoon:hover { color: rgba(0, 255, 0, 1); }
+
+#copyright,
+#love {
+    position: absolute;
+    bottom: 0;
+    margin: 1em;
+    font-family: 'Titillium Web', sans-serif;
+    color: #bdc3c7;
+    text-align: center;
+    font-size: 0.75rem;
+}
+
+#love {
+    right: 0; color: #D75A4A; opacity: 0.4;
+    transition: opacity ease-in 0.1s;
+}
+
+#love:hover { opacity: 1.0; }
+
+#love img {
+    width: 0.75rem;
+}
+
+/* #love {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+} */
